@@ -1,0 +1,44 @@
+# Password Strength Checker
+
+A beginner-friendly Python cybersecurity tool that evaluates password strength based on common security characteristics.
+
+## Features
+
+- Checks password length
+- Detects uppercase letters
+- Detects lowercase letters
+- Detects numbers
+- Detects special characters
+- Classifies passwords as:
+  - Weak
+  - Moderate
+  - Strong
+  - Very Strong
+- Provides recommendations for improving weak passwords
+
+## Technologies Used
+
+- Python 3
+- Regular Expressions (`re`)
+- Conditional statements
+- Functions
+- User input handling
+
+## How It Works
+
+The program evaluates the password against several security criteria:
+
+1. Password length
+2. Uppercase characters
+3. Lowercase characters
+4. Numbers
+5. Special characters
+
+A score is calculated based on these criteria, and the program displays the resulting strength level along with recommendations.
+
+## How to Run
+
+Make sure Python 3 is installed.
+
+```bash
+python Password_Checker.py
